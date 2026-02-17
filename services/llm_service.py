@@ -3,7 +3,7 @@ import json
 import requests
 import time
 
-OLLAMA_URL = "http://127.0.0.1:11434/api/generate"
+OLLAMA_URL = "http://localhost:11434"
 OLLAMA_MODEL = "llama3"
 
 def get_answer_from_ollama(prompt: str) -> str:
